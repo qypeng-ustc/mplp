@@ -67,6 +67,6 @@ done
 
 
 mkdir -p $MAG_SUBM_PATH
-python3 $MAG_CODE_PATH/ensemble.py $MAG_MPLP_PATH/output/ $MAG_SUBM_PATH
+python3 $MAG_CODE_PATH/ensemble.py $MAG_INPUT_PATH $MAG_MPLP_PATH/output/ $MAG_SUBM_PATH
 
 echo 'DONE!'
