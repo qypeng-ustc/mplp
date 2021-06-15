@@ -73,9 +73,11 @@ You will get embeddings as input features of the following MPLP models.
 
 ### 2. Train MPLP models
 We add weight for each class to  allievate the imblance problem by using the function below:
+
 $$
 weight = 153 \times normalise(log_{10}(\frac{cnt_{2018}}{cnt_{<=2018}} + 5.))
 $$
+
 The train process splits to two step:
 
 1. train the model with full train samples at a large learning rate (here we use *StepLR(lr=0.01, step_size=100, gamma=0.25)*)
