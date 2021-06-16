@@ -1,4 +1,4 @@
-# Final Solution for MAG240M dataset of OGB-LSC@KDDCUP2021
+# MPLP: Metapath-Based Label Propagation for Heterogenous Graphs
 
 ## Results on MAG240M
 
