@@ -1,4 +1,4 @@
-# Final Solution for KDDCUP20201-MAG240M
+# Final Solution for MAG240M dataset of OGB-LSC@KDDCUP2021
 
 ## Results on MAG240M
 
